@@ -201,6 +201,8 @@ main{
 .games{
     margin: 4rem;
     width:80rem;
+    text-align: center;
+    padding-left: 5rem;
 }
 .games-text{
     
@@ -279,11 +281,12 @@ main{
     margin-right: 5rem;
     margin-bottom: 2rem;
     margin-left: 10rem;
+    text-align: center;
 }
 #play2{
     position: relative;
-    right:108px;
-    top:-160px;
+    right:208px;
+    top:-180px;
     bottom:70px;
     width: 15rem;
     height: 16rem;
@@ -458,7 +461,6 @@ footer{
     }
     .footer-list,{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
         gap:1rem;
     }
     .footer-sm{
