@@ -67,7 +67,7 @@
 .banner-img{
     width: 55rem;
     height: 42.5rem;
-    padding-top: 1.25rem;
+    padding-top: 5rem;
     padding-bottom: 0px;
     padding-right: 5rem;
 }
@@ -75,6 +75,9 @@
 .banner-container{
     background-image: url("../B8A2-Gamer-Zone/images/Group\ 14.png");
     background-repeat: no-repeat;
+    background-size: 43rem 55rem;
+   fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+   /* background-size: contain; */
     padding-left: 5rem;
     padding-top: 4.5rem;
     width: 55rem;
@@ -131,6 +134,7 @@
 }
 main{
    margin-bottom: 0rem;
+   margin-top: 4.95rem;
 }
  .we-gamer{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
@@ -273,13 +277,14 @@ main{
 .play-instantly{
     margin-top: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     margin-left: 10rem;
 }
 #play2{
-    position: absolute;
-    left:43rem;
-    bottom: -132rem;
+    position: relative;
+    right:108px;
+    top:-160px;
+    bottom:70px;
     width: 15rem;
     height: 16rem;
 }
@@ -365,4 +370,89 @@ footer{
  font-size: 1rem;
  font-weight: 500;
  }
-    
+  @media screen and (max-width:576px) {
+    .nav, .nav-social-media, .banner, .we-gamer-real-container, .games-image, .play-container{
+        flex-direction: column;  
+    }
+    .nav-logo{
+        padding-left: 10px;
+    }
+      .nav{
+        margin-bottom: 6rem;
+      }  
+    .banner{
+        margin-bottom: 38.7rem;
+        
+    }
+    .banner-img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .banner-container{
+        padding-bottom: 5rem;
+    }
+    .we-gamer-img{
+        width: 100%;
+        padding-left: 1rem;
+        height: auto;
+        background-color: #FFF;
+    }
+    .we-gamer-container{
+        text-align: center;
+        width: 100%;
+        padding-right: 1rem;
+       padding-top: 0rem;
+       background-color: #FFF;
+    }
+    .we-gammer{
+        background-color: #FFF;
+        margin-bottom: 60rem;
+
+    }
+    .we-gamer-real-container{
+        background-color: #FFF;
+    }
+    .games{
+        width: 100%;
+        margin-top: 20rem;
+        margin-left: 0rem;
+    }
+    .games-text{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .games-image{
+        padding-left: 1rem;
+        text-align: center;
+    }
+    .play-instantly{
+        margin-left:0;
+        margin-right: 2rem;
+        width: auto;
+    }
+    .play-text{
+        text-align: center;
+    }
+    .play-title, .play-paragraph{
+        text-align:center ;
+    }
+    .play-image{
+        text-align: center;
+        padding-left: 2rem;
+    }
+    .play-image>img{
+        width: 80%;
+    }
+    .games-icon-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .games-icon{
+        padding-left: 0px;
+        height: auto;
+    }
+    .games-name{
+        width: auto;
+    }
