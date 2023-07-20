@@ -456,3 +456,21 @@ footer{
     .games-name{
         width: auto;
     }
+    .footer-list,{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:1rem;
+    }
+    .footer-sm{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 2rem;
+    }
+    .footer{
+        height: auto;
+    }
+    .footer-terms{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
