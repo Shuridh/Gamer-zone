@@ -3,3 +3,226 @@
     font-family: 'Lato', sans-serif;
  font-family: 'Open Sans', sans-serif;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px 50px 80px;
+    height: 8.15rem;
+}
+.nav-logo{
+    display: flex;
+    gap: 25px;
+    
+}
+.g-red{
+    color: #FF42A5;
+}
+.nav-icon{
+    height: 45px;
+    margin-top: 10px;
+}
+.nav-text{
+    
+    font-size: 45px;
+    font-weight: 700;
+    height: 50px;
+}
+.nav-social-media{
+    font-size: 18px;
+ font-weight: 500;
+ display: flex;
+}  
+.follow-us{
+    background: rgba(11, 2, 35, 0.10);
+    border: 0px;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    width: 265px; 
+    height: 56px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-top: -10px;
+}
+.nav-social-text{
+    margin-left: 20px;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    background: #FFF;
+    display: flex;
+    gap: 68px;
+    height: 42.5rem;
+
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-img{
+    width: 55rem;
+    height: 42.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 0px;
+    padding-right: 5rem;
+}
+
+.banner-container{
+    background-image: url("../B8A2-Gamer-Zone/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    padding-left: 5rem;
+    padding-top: 4.5rem;
+    width: 55rem;
+    height: 43rem;
+}
+.banner-text{
+    /* margin-top: -5px; */
+}
+.icon{
+    margin-right: 10px;
+}
+#btn-1{
+    background-color: #FF42A5;
+    color: #FFF;
+    border-radius: 3rem;
+    width: 9.75rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+}
+#btn-2{
+    margin-left: 15px;
+    border-radius: 48px;
+    color: #FFF;
+ background: #4EC5F7;
+ border: 0;
+ height: 4rem;
+  font-size: 1.25rem;
+ font-weight: 1.5rem;
+ width: 9.75rem;
+}
+.btn-2{
+    margin-left: -3px;
+    margin-right: 10px;
+}
+.banner-play{
+    color: #0B0223;
+ /* text-align: center; */
+ font-size: 3rem;
+ font-weight: 600;
+ margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 6rem;
+ font-weight: 800;
+ margin-top: 0px;
+ margin-left: -5px;
+ margin-bottom: 1.5rem;
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ .we-gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 1.25rem;
+    height: 38rem;
+    
+ }
+.we-gamer-real-container{
+    display: flex;
+    gap: 2rem;
+}
+.we-gamer-container{
+    text-align: right;
+    width: 40rem;
+    padding-right: 5rem;
+   
+}
+.we-gamer-title{
+    font-size: 3rem;
+ font-weight: 700;
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-gamer-text{
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: #534C64;
+}
+.we-gamer-btn{
+    background-color: #FF42A5;
+    color: #FFF;
+    border-radius: 3rem;
+    font-size: 1.25rem;
+    font-weight: 1.5rem;
+    border: 0;
+    width: 13rem;
+    height: 4rem;
+   
+}
+.we-gamer-h3{
+    color: #534C64;
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 2.815rem;
+ /* width: 40rem; */
+}
+#purpose{
+    font-size: 30px;
+ font-weight: 700;
+}
+.we-gamer-img{
+    width: 53rem;
+   
+   
+    height: 37.5rem;
+    padding-left: 4rem;
+}
+.we-gamer-img>img{
+    width:100% ;
+    height: 80%;
+}
+.games{
+    margin: 5rem;
+}
+.games-text{
+    
+    text-align: center;
+}
+.games-text-title{
+    font-size: 3rem;
+ font-weight: 700;
+ margin-bottom: 5px;
+}
+.games-2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.games-text-paragraph{
+    color: #534C64;
+ text-align: center;
+ font-size: 1.125rem;
+ line-height: 1.875rem;
+ margin-top: 0px;
+}
+.games-image{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.games-image>img{
+    width: 20%;
+    
+}
